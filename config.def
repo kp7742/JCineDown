@@ -1,0 +1,12 @@
+{
+    "useAccount": false,
+    "hasPremium": false,
+    "authToken": "",
+    "accountName": "Guest",
+    "ytdlpPath": "./bin/yt-dlp",
+    "ffmpegPath": "./bin/ffmpeg",
+    "mp4decPath": "./bin/mp4decrypt",
+    "tempPath": "./downloads/temp",
+    "downloadPath": "./downloads/{}/{}",
+    "psshCacheStore": {}
+}

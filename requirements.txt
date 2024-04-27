@@ -1,0 +1,8 @@
+pycryptodome
+pycryptodomex
+pywidevine
+PyYAML
+requests
+tqdm
+xmltodict
+yt-dlp
