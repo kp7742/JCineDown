@@ -1,12 +1,12 @@
 # JCineDown
  
-- JCineDown is small python utility to download VOD content from the Jio Cinema streaming site. I utilize open source stuff to achieve this objective, By communicating with their server apis and simulating browser's flow.
+- JCineDown is a small Python utility to download VOD content from the Jio Cinema streaming site. I utilize open source stuff to achieve this objective, By communicating with their server APIs and simulating browser's flow.
 
-- Widevine utility scripts uses device id blob from the old devices to allow server authorising keys for the streaming with Keys Caching to allow reusing keys without getting them again. A sample device's blob is provided in the project which is blocked by the server right now.
+- Widevine utility scripts use device ID blob from the old devices to allow server authorising keys for the streaming with Keys Caching to allow reusing keys without getting them again. A sample device's blob is provided in the project which is blocked by the server right now.
 
-- Main Object of this project was to learn and understand the video streaming technologies and DRM's inner workings and downsides.
+- The main objective of this project was to learn and understand video streaming technologies and DRM's inner workings and downsides.
 
-- To properly use this project, binaries of ffmpeg and mp4decrypt need to be place in `bin` directory with working device id blob for the widevine. It only supports guest token and so will only work with content which are watchable without any account.
+- To properly use this project, binaries of ffmpeg and mp4decrypt need to be placed in `bin` directory then put the working device id blob in the `cdn/devices` for the widevine. It only supports guest token and so will only work with content that is watchable without any account.
 
 ## Demo Output:
 ![](Demo.png)
